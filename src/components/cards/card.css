@@ -1,0 +1,98 @@
+
+
+.popCardContainer{
+    color: white;
+    width: 200px;
+    background: rgba(61, 60, 60, 0.418);
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+    padding: 0px 0px 10px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.popCardContainer h3{
+    /* font-weight: bold; */
+    font-family: Seaweed Script;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: gold;
+}
+
+.popCardContainer ul li{
+    margin: 10px 0px;
+}
+
+
+.popCardImg{
+    width: 150px;
+}
+
+
+.popPriceContainer{
+    background: gold;
+    color: rgb(5, 133, 47);
+    padding: 5px 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    transform: rotate(45deg);
+    width: 200px;
+    right: -60px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.popPriceContainer h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.otherCardImg{
+    width: 150px;
+    object-fit: contain;
+}
+
+.otherCardContainer{
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20px; */
+    background: rgba(61, 60, 60, 0.418);
+    backdrop-filter: blur(20px);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.otherCardInfo h4{
+    background: gold;
+    width: 150px;
+    position: absolute;
+    text-align: center;
+    padding: 5px 0px;
+    color: rgb(5, 133, 47);
+    font-weight: bold;
+    top: 15px;
+    left: -40px;
+    transform: rotate(-35deg);
+}
+
+.otherCardImgContainer{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}

@@ -1,0 +1,111 @@
+
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: black;
+    color: goldenrod;
+    padding: 20px 0px;
+}
+
+.navLinksContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navLink{
+    color: goldenrod;
+}
+
+.navSearchContainer{
+    border: .5px solid silver;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.navSearchContainer input{
+    background: transparent;
+    color: white;
+}
+
+/* .navSearchContainer{
+
+} */
+
+.menu{
+    display: none;
+}
+
+.rotateMenu{
+    display: none;
+}
+
+
+@media screen and (max-width:900px) {
+    nav{
+        background: white;
+        z-index: 89899594;
+        position: fixed;
+        width: 100%;
+    }
+
+    .navContainer{
+        position: relative;
+    }
+
+    .navLinksContainer{
+        position: absolute;
+        background: black;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        display: grid;
+        padding: 10px;
+        z-index: 477883474;
+        transform: translateY(-150%);
+        transition: all .3s linear;
+    }
+    .openNavLinksContainer{
+        position: absolute;
+        background: black;
+        top: 0px;
+        left: 0;
+        z-index: 477883474;
+        width: 100%;
+        display: grid;
+        padding: 10px;
+        transform: translateY(53px);
+        transition: all .3s linear;
+    }
+
+    .menu{
+        display: block;
+        cursor: pointer;
+        transform: rotate(0deg);
+        transition: all .3s ease-in;
+    }
+    
+    .rotateMenu{
+        display: block;
+        cursor: pointer;
+        transform: rotate(90deg);
+        transition: all .3s ease-in;
+    }
+
+    .navLinkContainer{
+        padding: 10px 0px;
+        transition: all .5s linear;
+        text-align: center;
+        display: block;
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    .navLinkContainer:hover{
+        background: gold;
+    }
+}
