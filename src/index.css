@@ -35,3 +35,8 @@ body{
   width: 3px;
   background: gold;
 }
+
+
+:root{
+  --green:rgb(5, 133, 47);
+}

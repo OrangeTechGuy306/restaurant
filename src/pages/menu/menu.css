@@ -1,0 +1,42 @@
+
+.MenuHeader h1{
+    color:gold;
+    font-family: Seaweed Script;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 40px 0px;
+    text-align: center;
+}
+
+
+.MenuHeader{
+    padding: 0px 20px;
+}
+
+
+.menuTable{
+    color: white;
+    width: 100%;
+    border: .5px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.menuTable thead{
+    background-color: gold;
+    color: var(--green);
+}
+
+.menuTable thead tr th{
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+.menuItem{
+    display: grid;
+    justify-items: flex-start;
+    align-content: flex-start;
+    gap: 40px;
+}

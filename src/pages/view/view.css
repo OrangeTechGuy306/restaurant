@@ -1,0 +1,65 @@
+
+
+.viewOrderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.orderInfoItemContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.orderDec{
+    background: gold;
+    border-radius: 3px;
+    padding: 2px 5px;
+    color: var(--green);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.orderInc{
+    background: var(--green);
+    border-radius: 3px;
+    /* padding: 2px 5px; */
+    width: 30px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.orderIncInput{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.orderNowBtnContainer{
+    margin: 40px 0px;
+}
+
+.orderNowBtn{
+    background: gold;
+    color: var(--green);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.customBtn{
+    background: var(--green);
+    color: gold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px 10px;
+}
