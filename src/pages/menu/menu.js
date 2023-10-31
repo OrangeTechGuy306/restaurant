@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./menu.css";
 import Navbar from "../../components/nav/nav";
+import CounterInput from "../../components/incinput/count_input";
 
 const MenuPage = () => {
   const [meat, setMeat] = useState([]);
@@ -37,6 +38,7 @@ const MenuPage = () => {
                         <div>
                             <input type="checkbox" name="" value={''}/>
                             <span> {drinks.coke}</span>
+                            <CounterInput/>
                         </div>
                         <div>
                             <input type="checkbox" name="" value={''}/>

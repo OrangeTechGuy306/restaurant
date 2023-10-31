@@ -39,4 +39,5 @@ body{
 
 :root{
   --green:rgb(5, 133, 47);
+  --darkBg: rgba(61, 60, 60, 0.418);
 }

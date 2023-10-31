@@ -1,20 +1,22 @@
 import React from 'react'
 import "./card.css"
 
-const OtherCards = ({img, title, price}) => {
+const OtherCard = ({img, type, price, desc}) => {
   return (
-    <div className='otherCardContainer'>
-        <div className='otherCardImgContainer'>
-            <img src={img} alt='' className='otherCardImg'/>
+    <div className="popCardContainer">
+        <div className='popCardImgContainer'>
+            <img src={img} alt="?" className='popCardImg'/>
         </div>
-        <div className='otherCardInfo'>
-            <h3>{title}</h3>
-            <h4>
-            <span>&#8358; </span>{Intl.NumberFormat(undefined).format(price)}
-            </h4>
+        <div className=''>
+            <h3>{type}</h3>
+            <span>{desc}</span>
+        </div>
+        <div className='popPriceContainer'>
+        
+            <h5><span>&#8358;</span> {Intl.NumberFormat(undefined, ).format(price)}</h5>
         </div>
     </div>
   )
 }
 
-export default OtherCards
+export default OtherCard

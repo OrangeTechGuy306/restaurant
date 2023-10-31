@@ -50,7 +50,7 @@
 }
 
 .catImg{
-    width: 100px;
+    width: 100px; 
     object-fit: contain;
 }
 
@@ -137,4 +137,112 @@
     font-weight: bold;
     font-size: 30px;
     color: gold;
+}
+
+
+.reserve_orderContainer{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* background: var(--darkBg); */
+    /* backdrop-filter: blur(20px); */
+    padding: 20px;
+    gap: 10px;
+}
+.reserveContainer{
+    background: var(--darkBg);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.reserveInput{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+    color: gold;
+    border: .5px solid white;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.reserveForm select{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+    color: gold;
+    border: .5px solid white;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.reserveContainer h1{
+    margin: 20px 0px;
+    color: white;
+}
+
+.reserveContainer p{
+    color: white;
+}
+
+.reserveInputDesc{
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    background: transparent;
+    border: .5px solid white;
+    margin: 10px 0px;
+    padding:  10px;
+    resize: none;
+    color: white;
+}
+
+.reserveBtn{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(2, 151, 39);
+    color:gold;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.orderContainer{
+    background: var(--darkBg);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.orderContainer p{
+    color: white;
+}
+
+.orderInput{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+    border: .5px solid white;
+    margin: 10px 0px;
+    color:gold;
+}
+
+.orderContainer h1{
+    color: gold;
+    margin: 10px 0px;
+}
+
+.orderBtn{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background: gold;
+    color:rgb(1, 88, 55);
+    font-weight: bold;
+    cursor: pointer;
 }

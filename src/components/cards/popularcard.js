@@ -2,7 +2,7 @@ import React from 'react'
 import "./card.css"
 
 
-const PopularCard = ({img, type, op1, op2, op3, op4, price}) => {
+const PopularCard = ({img, type, op1, op2, op3, op4, price, desc}) => {
   return (
     <div className="popCardContainer">
         <div className='popCardImgContainer'>
@@ -16,6 +16,7 @@ const PopularCard = ({img, type, op1, op2, op3, op4, price}) => {
                 <li>{op3}</li>
                 <li>{op4}</li>
             </ul>
+            <span>{desc}</span>
         </div>
         <div className='popPriceContainer'>
         

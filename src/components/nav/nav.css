@@ -51,10 +51,12 @@
         z-index: 89899594;
         position: fixed;
         width: 100%;
+        top: 0;
     }
 
     .navContainer{
         position: relative;
+        top: 0;
     }
 
     .navLinksContainer{

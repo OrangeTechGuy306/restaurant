@@ -8,6 +8,14 @@
     text-align: center;
 }
 
+.menuItem h3{
+    color:gold;
+    font-family: Seaweed Script;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+}
+
 
 .MenuHeader{
     padding: 0px 20px;
@@ -22,11 +30,6 @@
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-}
-
-.menuTable thead{
-    background-color: gold;
-    color: var(--green);
 }
 
 .menuTable thead tr th{
